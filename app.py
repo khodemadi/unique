@@ -1,8 +1,7 @@
 import random
 
-'''
-تعریف تابع wlecome
-'''
+
+#تعریف تابع wlecome
 
 def welcome():
     print("welcome to this funny game")
@@ -11,9 +10,7 @@ def welcome():
     print("go go go go")
     print()
 
-'''
-تعریف تابع finish
-'''
+#تعریف تابع finish
 
 def finish(number, count):
     print("good game")
@@ -25,16 +22,12 @@ def finish(number, count):
     else:
         return False
 
-'''
-تعریف تابع win
-'''
+#تعریف تابع win
 
 def win(computer_namber, guess):
     return computer_namber == guess
 
-'''
-تعریف تابع answer
-'''
+#تعریف تابع answer
 
 def answer(computer, user):
     if computer > user:
@@ -44,18 +37,14 @@ def answer(computer, user):
 
     return "wow you won! good guess!"
 
-'''
-تعریف تابع get_a_guess
-'''
+#تعریف تابع get_a_guess
 
 def get_a_guess():
     ans = input("what is your guess? ")
     return int(ans)
 
 
-'''
-از اینجا به بعد از تابع ها در کد استفاده میکنم استفاده میکنم
-'''
+#از اینجا به بعد از تابع ها در کد استفاده میکنم استفاده میکنیم
 
 welcome()
 continue_playing = True
